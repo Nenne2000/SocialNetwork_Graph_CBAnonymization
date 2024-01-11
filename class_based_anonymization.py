@@ -1,68 +1,31 @@
-import os
-import sys
 import pandas as pd
 import networkx as nx
 import matplotlib.pyplot as plt
-import seaborn as sns
-import numpy as np
-from faker import Faker
 
+
+# Carica i dati dai file CSV
+nodes_df = pd.read_csv("nodes_data.csv")
+edges_df = pd.read_csv("edges_data.csv")
+
+# Crea un grafo vuoto
+G = nx.Graph()
+
+# Aggiungi nodi e attributi dal DataFrame dei nodi
+for _, data in nodes_df.iterrows():
+    G.add_node(data["node"], **eval(data["attributes"]))
+
+# Aggiungi archi e attributi dal DataFrame degli archi
+for _, data in edges_df.iterrows():
+    G.add_edge(data["node1"], data["node2"], **eval(data["attributes"]))
+
+# Divide nuovamente il grafo in due tipi
+nodes_0 = [node for node in G.nodes() if G.nodes[node]["bipartite"] == 0]
+nodes_1 = [node for node in G.nodes() if G.nodes[node]["bipartite"] == 1]
+
+n = len(nodes_0)
+m = len(nodes_1)
 ##############################################################################################################################################################################
 
-#Creazione del grafo bipartito
-n = 30
-m = 20
-k = n*2
-G = nx.bipartite.gnmk_random_graph(n, m, k)
-
-#Divisione esplicita dei 2 tipi di dato
-for node in range(n):
-    G.nodes[node]["type"] = 0
-
-for node in range(n, n+m):
-    G.nodes[node]["type"] = 1
-
-#creiamo i due insiemi che useremo per semplificare i richiami successivi
-nodes_0 = [node for node in G.nodes() if G.nodes[node]["type"] == 0]
-nodes_1 = [node for node in G.nodes() if G.nodes[node]["type"] == 1]
-
-#Aggiungimao valori fittizi circa i dati relativi agli utenti
-fake = Faker()
-for node in nodes_0:
-    G.nodes[node]["ID"] = node
-    G.nodes[node]["name"] = "".join(fake.name())
-    G.nodes[node]["year"] = np.random.randint(1940, 2000)
-    G.nodes[node]["color"] = "green"
-
-#Diamo un valore fittizio anche ai nodi interazione, includendo nel nostro dominio interazioni di tipo friendship, blog e message
-for node in nodes_1:
-    G.nodes[node]["ID"] = node
-    G.nodes[node]["interaction"] = np.random.choice(["friendship", "blog", "message"])
-    G.nodes[node]["color"] = "blue"
-
-##############################################################################################################################################################################
-
-# Correzioni necessarie circa il numero di archi per ogni nodo di tipo interazione
-for node in nodes_1:
-    neighbors = list(G.neighbors(node))
-    #se per ogni interazione è stato generato un solo vicino, lo rimuoviamo, poiche non avrebbe senso
-    if len(neighbors) == 1:
-        G.remove_edge(node, neighbors[0])
-    #Il numero massimo di utenti connessi tramite amicizia o messaggio è 2, il numero massimo di utenti connessi tramite blog è 4
-    if (G.nodes[node]["interaction"] == "friendship" or G.nodes[node]["interaction"] == "message") and len(neighbors) > 2:
-        G.remove_edges_from([(node, neighbor) for neighbor in neighbors[2:]])
-    elif G.nodes[node]["interaction"] == "blog" and len(neighbors) > 4:
-        G.remove_edges_from([(node, neighbor) for neighbor in neighbors[4:]])
-
-##############################################################################################################################################################################
-'''
-#stampiamo i valori degli attributi utili per la comprensione
-for node in nodes_0:
-    print(f"Node {node}: ID = {G.nodes[node]['ID']}, name = {G.nodes[node]['name']}, year = {G.nodes[node]['year']}")
-for node in nodes_1:
-    print(f"Node {node}: ID = {G.nodes[node]['ID']}, interaction = {G.nodes[node]['interaction']}")
-'''
-##############################################################################################################################################################################
 
 #funzioni necessarie Per la divisione in classi + creazione delle label lists
 
@@ -78,19 +41,6 @@ def safety_condition(c, v):
         if set(G.neighbors(node_in_class)).intersection(set(G.neighbors(v))):
             return False
     return True
-
-#per ogni elemento di una classe creiamo una label list che maschera l'identificatore dell'utente in base ad un pattern di lunghezza k < m  del tipo [0,1,2,...,k-1] (prefix pattern)
-def create_lbl_list_prefix_pattern(node_pos, c):
-    pattern = [0,1,2]
-    k = len(pattern)
-    lbl_list_pos = []
-    for i in pattern:
-        lbl_list_pos.append((node_pos + i) % len(c))
-    lbl_list = []
-    for i in lbl_list_pos:
-        lbl_list.append(c[i])
-    np.random.shuffle(lbl_list)
-    return lbl_list
 
 ##############################################################################################################################################################################
 
@@ -144,7 +94,6 @@ for i, node in enumerate(nodes_0_partitioned):
     G_partitioned.nodes[node]["ID"] = node
     G_partitioned.nodes[node]["color"] = "green"
     G_partitioned.nodes[node]["set"] = classes[i]
-    print(G_partitioned.nodes[node]["set"])
 
 for i, node in enumerate(nodes_1_partitioned):
     G_partitioned.nodes[node]["ID"] = i+n
@@ -156,16 +105,8 @@ for edge in G.edges():
         if edge[0] in G_partitioned.nodes[node]["set"]:
             G_partitioned.add_edge(node, edge[1])
 
-
 ##############################################################################################################################################################################
-'''
-#creiamo e stampiamo le le label lists create tramite il prefix pattern
-for c in classes:
-    lista_di_liste = []
-    for node_pos in range(len(c)):
-        lista_di_liste.append(create_lbl_list_prefix_pattern(node_pos, c))
-    print(lista_di_liste)
-'''
+
 # rappresentazione del grafo originale bipartito
 pos = nx.bipartite_layout(G, nodes_0)
 nx.draw(G, pos, with_labels=False, node_color=[G.nodes[node]["color"] for node in G.nodes()], verticalalignment="bottom")
