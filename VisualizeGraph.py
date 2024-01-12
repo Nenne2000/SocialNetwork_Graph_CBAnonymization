@@ -1,29 +1,39 @@
-import pandas as pd
 import networkx as nx
 import matplotlib.pyplot as plt
 
-# Carica i dati dai file CSV
-nodes_df = pd.read_csv("nodes_data.csv")
-edges_df = pd.read_csv("edges_data.csv")
 
-# Crea un grafo vuoto
-G_loaded = nx.Graph()
+def Visualize(G, class_reppresentation, size, type):
+    """ 
+    Funzione ausiliaria per la visualizzazione del grafo bipartito.
+    """
+    #riprendi i dati circa i nodi del grafo
+    nodes_0 = [node for node in G.nodes() if G.nodes[node]["bipartite"] == 0]
+    nodes_1 = [node for node in G.nodes() if G.nodes[node]["bipartite"] == 1]
 
-# Aggiungi nodi e attributi dal DataFrame dei nodi
-for _, data in nodes_df.iterrows():
-    G_loaded.add_node(data["node"], **eval(data["attributes"]))
+    n = len(nodes_0)
+    m = len(nodes_1)
 
-# Aggiungi archi e attributi dal DataFrame degli archi
-for _, data in edges_df.iterrows():
-    G_loaded.add_edge(data["node1"], data["node2"], **eval(data["attributes"]))
 
-# Divide nuovamente il grafo in due tipi
-nodes_0_loaded = [node for node in G_loaded.nodes() if G_loaded.nodes[node]["bipartite"] == 0]
-nodes_1_loaded = [node for node in G_loaded.nodes() if G_loaded.nodes[node]["bipartite"] == 1]
+    # Visualizza il grafo caricato. in alto voglio leggere il numero di ndodi di tipo 0 = n, il numero di nodi di tipo 1 = m e la size = size
+    pos = nx.bipartite_layout(G, nodes_0)
 
-# Visualizza il grafo caricato
-pos_loaded = nx.bipartite_layout(G_loaded, nodes_0_loaded)
-nx.draw(G_loaded, pos_loaded, with_labels=False, node_color=[G_loaded.nodes[node]["color"] for node in G_loaded.nodes()], verticalalignment="bottom")
-nx.draw_networkx_labels(G_loaded, pos_loaded, {node: G_loaded.nodes[node]["interaction"] for node in G_loaded.nodes() if G_loaded.nodes[node]["type"] == 1}, font_size=10, font_color="black", verticalalignment="center")
-nx.draw_networkx_labels(G_loaded, pos_loaded, {node: node for node in G_loaded.nodes() if G_loaded.nodes[node]["type"] == 0}, font_size=10, font_color="black", verticalalignment="center")
-plt.show()
+    nx.draw(G, pos, with_labels=False, node_color=[G.nodes[node]["color"] for node in G.nodes()], verticalalignment="bottom")
+    nx.draw_networkx_labels(G, pos, {node: G.nodes[node]["interaction"] for node in G.nodes() if G.nodes[node]["bipartite"] == 1}, font_size=10, font_color="black", verticalalignment="center")
+    
+    if(not class_reppresentation):
+        nx.draw_networkx_labels(G, pos, {node: node for node in G.nodes() if G.nodes[node]["bipartite"] == 0}, font_size=10, font_color="black", verticalalignment="center")
+    else:
+        nx.draw_networkx_labels(G, pos, {node: G.nodes[node]["set"] for node in G.nodes() if G.nodes[node]["bipartite"] == 0}, font_size=10, font_color="black", verticalalignment="center")
+    
+    if (type == "uniform-lists"):
+        title_text = "uniform lists approach → numero utenti = " + str(n) + ", numero interazioni = " + str(m) + ", size di ogni classe/lista = " + str(size)
+    elif (type == "arbitrary-lists"):
+        title_text = "arbitrary lists approach → numero utenti = " + str(n) + ", numero interazioni = " + str(m) + ", size di ogni lista = " + str(size)
+    elif (type == "partitioning"):
+        title_text = "partitioning approach → numero partizioni = " + str(n) + ", numero interazioni = " + str(m) + ", size di ogni partizione = " + str(size)
+    else:
+        title_text = "Original graph → numero utenti = " + str(n) + ", numero interazioni = " + str(m)
+    
+    print(title_text)
+    plt.title(title_text)
+    plt.show()

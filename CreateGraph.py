@@ -3,6 +3,7 @@ import networkx as nx
 import numpy as np
 from faker import Faker
 import matplotlib.pyplot as plt
+from VisualizeGraph import Visualize
 
 #Creazione del grafo bipartito
 #valori di n ed m scelti dall'utente
@@ -58,12 +59,8 @@ nodes_df = pd.DataFrame(nodes_data, columns=["node", "attributes"])
 edges_df = pd.DataFrame(edges_data, columns=["node1", "node2", "attributes"])
 
 # Salvataggio del DataFrame in file CSV
-nodes_df.to_csv("nodes_data.csv", index=False)
-edges_df.to_csv("edges_data.csv", index=False)
+nodes_df.to_csv("csv/nodes_data.csv", index=False)
+edges_df.to_csv("csv/edges_data.csv", index=False)
 
 # Visualizzazione del grafo
-pos_loaded = nx.bipartite_layout(G, nodes_0)
-nx.draw(G, pos_loaded, with_labels=False, node_color=[G.nodes[node]["color"] for node in G.nodes()], verticalalignment="bottom")
-nx.draw_networkx_labels(G, pos_loaded, {node: G.nodes[node]["interaction"] for node in G.nodes() if G.nodes[node]["bipartite"] == 1}, font_size=10, font_color="black", verticalalignment="center")
-nx.draw_networkx_labels(G, pos_loaded, {node: node for node in G.nodes() if G.nodes[node]["bipartite"] == 0}, font_size=10, font_color="black", verticalalignment="center")
-plt.show()
+Visualize(G, False, -1, "original")
