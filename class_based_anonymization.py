@@ -61,6 +61,7 @@ def arbitrary_lists_builder(G, arbitrary_lbl_list_size, nodes_0):
             random_node = random.choice(V)
             while random_node in list:
                 random_node = random.choice(V)
+            random.shuffle(list)
             list.append(random_node)
 
         random_label_lists.append(list)
@@ -147,7 +148,7 @@ def main():
 
     parser = argparse.ArgumentParser()
 
-    parser.add_argument("--type", help=" 'uniform-lists' / 'partitioning' / 'arbitrary-lists' ", default="partitioning")
+    parser.add_argument("--type", help=" 'uniform-lists' / 'partitioning' / 'arbitrary-lists' ")
 
     args = parser.parse_args()
 
@@ -187,6 +188,7 @@ def main():
         print("label lists associate ad ogni nodo:")
         for c in arbitrary_lists:
             print(c)
+        Visualize(G,False, -1, "original") 
         Visualize(G,True,arbitrary_lbl_list_size, args.type)
     else:
         print("choose: 'uniform-lists' / 'partitioning' / 'arbitrary-lists' ")
