@@ -1,0 +1,1001 @@
+name,surname,age,zip,bank,disease
+Guido,Visintini,20,16600,37515,mononucleosi
+Virgilio,Bruscantini,70,16300,17654,covid-19
+Silvio,Errani,0,16800,3991,influenza
+Sole,Borroni,30,16600,65676,influenza Intestinale
+Veronica,Parmitano,40,16000,60141,covid-19
+Panfilo,Pareto,70,16800,26096,polmonite
+Rosa,Morlacchi,50,16900,18346,mononucleosi
+Lisa,Pisani,80,16700,28269,broncopolmonite
+Daniele,Legnante,0,16700,5807,mononucleosi
+Martino,Caironi,50,16400,98080,polmonite
+Priscilla,Amaldi,20,16000,8716,polmonite
+Danilo,Maspero,20,16900,32105,polmonite
+Ranieri,Maspero,10,16100,2518,influenza
+Patrizia,Aloisio,80,16600,37216,covid-19
+Sandra,Agostini,80,16200,52801,broncopolmonite
+Giuseppe,Giusti,80,16200,42081,influenza Intestinale
+Alessio,Terragni,40,16900,56875,influenza
+Griselda,Traversa,60,16800,29341,influenza
+Ignazio,Sandi,70,16100,90607,covid-19
+Cirillo,Roncalli,40,16600,99420,influenza
+Martino,Tagliafierro,0,16900,2913,covid-19
+Giuliana,Trapani,50,16900,27879,polmonite
+Salvatore,Nitto,90,16500,54075,influenza
+Gilberto,Bandello,60,16500,31010,influenza
+Licia,Metella,60,16100,41932,polmonite
+Fedele,Amato,60,16800,29184,mononucleosi
+Stella,Costanzi,10,16200,4066,mononucleosi
+Salvi,Navarria,30,16000,20384,polmonite
+Toni,Trussardi,80,16000,53784,mononucleosi
+Alberto,Monti,50,16300,10486,influenza
+Evangelista,Bottigliero,20,16000,30675,covid-19
+Gianpaolo,Pagliaro,70,16100,90746,mononucleosi
+Mirko,Pisaroni,90,16500,10095,broncopolmonite
+Rosina,Busoni,90,16700,54579,influenza Intestinale
+Ninetta,Renzi,40,16000,73208,broncopolmonite
+Marco,Fuseli,90,16500,13393,influenza Intestinale
+Roman,Modugno,0,16500,6775,influenza Intestinale
+Filippa,Pignatti,40,16100,20259,influenza
+Camilla,Stein,50,16100,55636,broncopolmonite
+Mercedes,Interminei,60,16800,26078,broncopolmonite
+Damiano,Lollobrigida,60,16400,17858,influenza Intestinale
+Fabrizia,Scandone,20,16500,41989,covid-19
+Piergiorgio,Alfieri,40,16000,76023,influenza Intestinale
+Martino,Mascagni,80,10000,68770,polmonite
+Dante,Botticelli,50,16800,4683,influenza
+Anita,Zaccardo,50,16400,89433,covid-19
+Emilio,Gentili,70,10000,22397,influenza
+Nico,Abatantuono,60,16000,75939,influenza Intestinale
+Serafina,Piovani,70,16200,73888,covid-19
+Nino,Cilibrasi,80,10000,85162,broncopolmonite
+Salvi,Greco,70,10000,62870,polmonite
+Giosuè,Musatti,40,16100,37851,broncopolmonite
+Nedda,Mezzetta,80,16200,23285,influenza
+Coriolano,Satta,20,16900,7752,influenza Intestinale
+Orazio,Padovano,60,16400,51580,mononucleosi
+Riccardo,Bianchini,80,16300,54769,influenza Intestinale
+Tatiana,Albertini,90,16300,54727,influenza
+Paulina,Odescalchi,30,16600,42592,mononucleosi
+Mercedes,Ruggeri,70,16700,12849,mononucleosi
+Saverio,Bajardi,40,16200,82634,polmonite
+Ivo,Fischetti,50,16800,56508,broncopolmonite
+Renzo,Ligorio,0,16000,2862,influenza
+Gianfranco,Tosto,80,16300,79767,influenza
+Maurizio,Panzera,80,16200,99394,mononucleosi
+Renzo,Storladi,10,16600,4325,broncopolmonite
+Caterina,Orsini,60,16000,61551,influenza Intestinale
+Pasqual,Sobrero,40,16400,39745,influenza
+Caterina,Orengo,50,16900,27304,influenza
+Federico,Scotto,50,16000,34645,mononucleosi
+Angelo,Argenti,30,16300,46949,mononucleosi
+Susanna,Solimena,0,16900,528,influenza
+Galasso,Sismondi,30,16100,48127,influenza
+Nadia,Ammaniti,50,16300,35184,influenza
+Mercedes,Tuzzolino,20,16000,29560,influenza Intestinale
+Stella,Ziani,0,16000,912,broncopolmonite
+Melissa,Sommaruga,60,16200,44287,influenza
+Coriolano,Alfieri,90,16000,11471,influenza
+Luciana,Frescobaldi,0,16500,7787,influenza Intestinale
+Fausto,Castellitto,80,16400,99478,influenza Intestinale
+Manuel,Armellini,80,16400,49248,mononucleosi
+Sophia,Grassi,10,16200,7788,covid-19
+Amico,Caetani,20,16600,26893,mononucleosi
+Carolina,Grossi,0,16000,3943,influenza
+Allegra,Niscoromni,60,16100,31840,broncopolmonite
+Eugenia,Comboni,20,16800,20361,covid-19
+Graziella,Blasi,70,16800,40174,covid-19
+Baldassare,Pertile,30,16300,75562,polmonite
+Hugo,Lamborghini,20,16000,12110,influenza Intestinale
+Fiorenzo,Sorrentino,0,16100,8447,influenza Intestinale
+Paola,Biagiotti,20,16000,15597,covid-19
+Mercedes,Farnese,0,16300,8023,influenza Intestinale
+Paulina,Pareto,20,16000,10326,mononucleosi
+Adamo,Toscani,70,16300,38774,mononucleosi
+Paloma,Modigliani,30,16000,58019,covid-19
+Serafina,Aulenti,50,16700,75412,mononucleosi
+Alphons,Farinelli,30,16300,36989,broncopolmonite
+Nanni,Gianetti,30,16300,73721,mononucleosi
+Ugolino,Spadafora,70,16400,25238,polmonite
+Pompeo,Gianinazzi,90,16900,24904,polmonite
+Serena,Capecchi,10,16000,7895,mononucleosi
+Gino,Stradivari,0,16300,90354,covid-19
+Eugenia,Missoni,80,16400,13222,influenza
+Bartolomeo,Camicione,60,16000,31149,influenza Intestinale
+Lidia,Salieri,70,16000,35490,polmonite
+Tullio,Doglioni,40,16700,2178,influenza
+Marissa,Cardano,0,16100,4154,covid-19
+Fiamma,Tasso,40,16400,16175,influenza
+Lamberto,Cainero,0,16000,6762,influenza Intestinale
+Galasso,Doglioni,20,16000,16930,covid-19
+Nadia,Berlusconi,10,16900,3389,influenza Intestinale
+Sonia,Bragaglia,0,16100,48574,mononucleosi
+Carolina,Sorrentino,80,16000,47132,mononucleosi
+Bartolomeo,Piane,30,16800,47521,polmonite
+Pasqual,Tosi,40,16000,54909,influenza
+Gianpietro,Farina,80,16900,10446,broncopolmonite
+Liberto,Sordi,20,16000,38366,polmonite
+Simone,Gradenigo,20,16000,15322,influenza
+Dionigi,Versace,30,16000,73254,covid-19
+Enzo,Germano,80,16400,28179,mononucleosi
+Victoria,Anguissola,60,16300,99207,influenza
+Ermanno,Vezzali,50,16400,28314,polmonite
+Ruggiero,Polizzi,10,16800,5241,covid-19
+Fiamma,Romiti,40,16700,70896,influenza Intestinale
+Rosalia,Dandolo,50,16200,12905,mononucleosi
+Salvatore,Lombardi,20,16000,35810,broncopolmonite
+Antonio,Tomaselli,20,16600,13834,polmonite
+Giosuè,Beccheria,0,16900,6238,covid-19
+Maurilio,Camilleri,80,16000,11006,covid-19
+Renzo,Majorana,90,16300,22092,polmonite
+Umberto,Gottardi,60,16900,80637,influenza
+Cassandra,Renier,90,16000,54259,mononucleosi
+Leone,Saracino,80,16800,64001,covid-19
+Veronica,Emo,40,16600,28334,broncopolmonite
+Fortunata,Vecellio,40,16300,7269,mononucleosi
+Gianpaolo,Merisi,10,16800,9867,broncopolmonite
+Pomponio,Corbo,60,16700,19303,broncopolmonite
+Tullio,Cilibrasi,30,16600,50243,broncopolmonite
+Guido,Pometta,10,16100,40338,mononucleosi
+Rosina,Visconti,10,16500,9764,influenza
+Laura,Solari,90,16100,96342,polmonite
+Sebastiano,Galiazzo,30,16500,48679,polmonite
+Simonetta,Bruno,90,16700,64869,influenza Intestinale
+Diana,Malenchini,50,16000,86787,influenza
+Alfio,Cimarosa,90,16600,30642,influenza
+Milena,Tencalla,90,16500,64241,broncopolmonite
+Ida,Bandello,90,16000,5783,influenza
+Agostino,Chechi,50,16400,82601,influenza Intestinale
+Ruggiero,Fantini,10,16000,74,influenza Intestinale
+Lilla,Aporti,10,16100,7346,polmonite
+Pierluigi,Trevisani,40,16700,85058,influenza Intestinale
+Paulina,Righi,60,16000,17593,polmonite
+Bettina,Bragaglia,0,16700,8726,mononucleosi
+Daria,Togliatti,0,16700,3578,polmonite
+Vittoria,Balbo,80,16600,16274,polmonite
+Patrizia,Vasari,40,16600,32729,influenza
+Dario,Marangoni,60,16400,93433,influenza Intestinale
+Federigo,Tacchini,70,16500,54943,broncopolmonite
+Simonetta,Argurio,90,16400,67416,mononucleosi
+Benito,Sansoni,80,16000,37706,broncopolmonite
+Pomponio,Turati,60,16800,32444,influenza Intestinale
+Pasqual,Liguori,20,16800,23527,polmonite
+Fortunata,Salvini,0,16700,74409,influenza
+Coluccio,Caruso,0,16100,3689,mononucleosi
+Girolamo,Canova,40,16600,26376,influenza
+Renzo,Tornatore,20,16000,47583,polmonite
+Ugo,Boccioni,80,16800,30205,polmonite
+Daniele,Torricelli,0,16300,1424,influenza Intestinale
+Serafina,Contrafatto,30,16000,8383,covid-19
+Ermenegildo,Soranzo,70,16300,41310,influenza Intestinale
+Vittoria,Lucchesi,80,16800,93406,broncopolmonite
+Griselda,Scarlatti,90,16700,1737,influenza
+Vincenza,Chittolini,90,16000,12553,covid-19
+Raffaella,Ossola,50,16600,84272,covid-19
+Luchino,Fagotto,0,16100,33104,polmonite
+Priscilla,Carli,90,16000,56644,polmonite
+Claudio,Gulotta,80,16000,81864,covid-19
+Orazio,Castelli,10,16000,8809,broncopolmonite
+Flora,Chechi,10,16800,2391,broncopolmonite
+Alderano,Pizzetti,80,16900,59397,broncopolmonite
+Griselda,Forza,50,16900,58944,covid-19
+Niccolò,Tropea,0,16000,9175,influenza
+Filippa,Muti,40,16600,33832,covid-19
+Bettina,Cappelli,90,16400,85559,mononucleosi
+Anita,Bellini,70,16400,55976,covid-19
+Fedele,Milanesi,60,16000,27476,influenza
+Valentina,Scamarcio,50,16300,27461,covid-19
+Ida,Barsanti,50,16300,10784,covid-19
+Pier,Scaramucci,20,16000,19967,broncopolmonite
+Pierangelo,Ungaretti,40,16500,6388,mononucleosi
+Temistocle,Priuli,40,16900,42617,polmonite
+Elena,Metella,90,16800,46171,broncopolmonite
+Maria,Samele,30,16300,44491,mononucleosi
+Agnolo,Endrizzi,10,16600,6346,influenza Intestinale
+Eliana,Panzera,10,16800,8133,mononucleosi
+Giovanna,Giulietti,30,16000,73440,influenza
+Ettore,Ungaretti,80,16200,15910,broncopolmonite
+Carmelo,Maderna,50,16600,45361,influenza
+Sonia,Capuana,0,16400,5629,covid-19
+Franco,Tafuri,80,16100,83349,influenza Intestinale
+Pompeo,Fioravanti,50,16100,83502,influenza Intestinale
+Giacobbe,Sgalambro,50,16600,26395,influenza Intestinale
+Marcella,Pergolesi,80,16900,73770,mononucleosi
+Michele,Volta,20,16100,24526,broncopolmonite
+Piergiuseppe,Moresi,60,10000,24025,mononucleosi
+Manuel,Ostinelli,80,16500,29554,influenza Intestinale
+Augusto,Mastandrea,60,16600,60367,influenza
+Santino,Sommaruga,30,16200,94239,covid-19
+Alberto,Pausini,50,16600,83503,broncopolmonite
+Lodovico,Combi,90,16500,89408,covid-19
+Pina,Fantoni,0,16000,1181,broncopolmonite
+Melissa,Vattimo,90,16500,81918,influenza
+Donatello,Grossi,40,16000,67110,mononucleosi
+Osvaldo,Pisano,40,16900,71969,covid-19
+Tiziana,Grasso,50,16000,14103,influenza Intestinale
+Lodovico,Polesel,0,16200,8955,polmonite
+Stefania,Basadonna,0,16000,9916,mononucleosi
+Sebastiano,Troisi,90,16000,98987,influenza
+Giorgia,Carducci,40,16600,90554,influenza Intestinale
+Nina,Basso,0,16500,3004,influenza
+Erika,Brunelleschi,0,16400,2900,polmonite
+Gianni,Abba,20,16700,16578,broncopolmonite
+Fernanda,Santorio,40,16000,17982,influenza
+Calogero,Vattimo,0,16700,78628,mononucleosi
+Gioachino,Scotto,50,16200,12980,polmonite
+Anita,Majorana,50,16000,11786,mononucleosi
+Gianfrancesco,Ritacca,90,16000,19124,mononucleosi
+Rolando,Rensi,90,16400,87604,influenza
+Gabriella,Galvani,0,16200,10464,broncopolmonite
+Piero,Pratesi,0,16600,9716,influenza Intestinale
+Margherita,Pucci,90,16400,41952,polmonite
+Daria,Campano,20,16200,49898,influenza Intestinale
+Lolita,Saragat,50,16000,9184,polmonite
+Alberto,Pavanello,60,16400,71649,influenza Intestinale
+Livia,Mazzeo,20,16400,47413,polmonite
+Giada,Piovani,30,16300,18922,broncopolmonite
+Evangelista,Ciani,40,16800,3140,broncopolmonite
+Ubaldo,Grasso,20,16900,19530,influenza Intestinale
+Marcantonio,Procacci,30,16400,11849,polmonite
+Claudio,Palazzo,80,16300,84589,covid-19
+Berenice,Pepe,60,16700,53494,influenza Intestinale
+Renata,Palazzo,60,16400,86654,influenza
+Gaetano,Morricone,70,16600,14503,polmonite
+Serena,Tomaselli,60,16000,88656,broncopolmonite
+Gioacchino,Riccati,70,16600,44182,influenza Intestinale
+Vanessa,Marrone,90,16100,56682,polmonite
+Lara,Mocenigo,60,16000,64551,influenza Intestinale
+Adriana,Pelli,10,16800,11404,influenza
+Irma,Pagliaro,80,16000,68813,influenza
+Adriana,Alfieri,20,10000,11181,mononucleosi
+Uberto,Segni,10,16100,31189,covid-19
+Raffaele,Boito,40,16900,96641,influenza
+Lazzaro,Doria,90,16200,75594,covid-19
+Patrizia,Farnese,80,16600,28291,mononucleosi
+Angelo,Camicione,0,16700,8471,influenza
+Zaira,Montalcini,40,16700,86946,polmonite
+Alderano,Govoni,70,16200,20025,influenza
+Camilla,Dellucci,10,16700,7204,influenza
+Marcella,Jacuzzi,50,16500,97221,polmonite
+Maurilio,Redi,0,16000,25603,mononucleosi
+Fredo,Civaschi,90,16100,87923,influenza Intestinale
+Marcantonio,Orengo,0,16000,6496,broncopolmonite
+Susanna,Opizzi,40,16700,69199,influenza Intestinale
+Germana,Parini,30,16900,2949,polmonite
+Alfredo,Branciforte,70,16800,68054,mononucleosi
+Sergius,Onio,0,16000,20402,broncopolmonite
+Giada,Boezio,70,16900,95212,covid-19
+Carlo,Mogherini,0,16000,9395,mononucleosi
+Annetta,Chinnici,40,16200,65731,polmonite
+Ugolino,Cianciolo,60,16000,33225,influenza
+Imelda,Pisacane,90,16700,78666,mononucleosi
+Elisa,Barcaccia,0,16900,963,mononucleosi
+Diana,Agnesi,10,16100,8173,covid-19
+Livia,Chechi,10,16700,3945,influenza Intestinale
+Mercedes,Maffei,10,16300,59605,influenza
+Erika,Zabarella,60,16300,99787,broncopolmonite
+Zaira,Scamarcio,10,16900,4522,influenza
+Marina,Tarantini,0,16200,9822,mononucleosi
+Angelica,Morellato,20,16000,46882,influenza
+Lolita,Boccaccio,30,16300,19510,broncopolmonite
+Gianfrancesco,Leblanc,60,16300,22111,influenza
+Elisa,Toscanini,90,16400,16877,mononucleosi
+Luca,Petrucci,40,16900,24478,broncopolmonite
+Geronimo,Villadicani,30,16500,66883,mononucleosi
+Sandra,Nosiglia,70,16000,31668,mononucleosi
+Vincenzo,Guglielmi,40,16000,31353,mononucleosi
+Elena,Franceschi,20,16400,48280,influenza
+Flora,Caetani,30,16000,26082,broncopolmonite
+Giovanna,Cuzzocrea,40,16800,24969,influenza
+Elmo,Casagrande,20,16900,15917,influenza
+Calcedonio,Marinetti,0,16800,4514,broncopolmonite
+Paolo,Mengolo,60,16700,82766,covid-19
+Erika,Saragat,80,16400,67679,broncopolmonite
+Fedele,Sagnelli,80,16000,69098,polmonite
+Ernesto,Zoppetto,50,16700,23984,influenza Intestinale
+Maria,Cherubini,0,16700,1614,broncopolmonite
+Elvira,Sandi,60,16600,25666,mononucleosi
+Paola,Veltroni,0,16800,6166,broncopolmonite
+Pasquale,Magrassi,10,16500,8585,covid-19
+Greca,Bembo,20,16200,44265,covid-19
+Toni,Nonis,60,16500,96718,polmonite
+Rosario,Baresi,0,16500,531,influenza
+Eugenia,Morandi,0,16700,9244,covid-19
+Milo,Pontecorvo,90,16000,51166,influenza
+Giulio,Monte,20,16000,46685,influenza Intestinale
+Roberto,Cilibrasi,0,16800,6322,polmonite
+Bernardo,Ungaretti,0,16000,88210,broncopolmonite
+Costantino,Canetta,60,16700,94163,mononucleosi
+Fabrizio,Monduzzi,10,16200,5195,broncopolmonite
+Antonino,Bettoni,10,16600,32780,broncopolmonite
+Antonietta,Cerquiglini,70,16900,97582,mononucleosi
+Danilo,Gaiatto,50,16400,72926,influenza
+Alessia,Panatta,40,16300,20538,mononucleosi
+Gaetano,Taliani,0,16800,3915,influenza Intestinale
+Napoleone,Papafava,90,16700,55443,influenza
+Veronica,Riccardi,90,16000,99056,mononucleosi
+Amico,Cheda,30,16300,21088,polmonite
+Valentina,Bonolis,0,16100,46635,polmonite
+Patrizio,Bonolis,90,16300,69545,covid-19
+Giulietta,Greco,70,16500,25439,covid-19
+Liana,Mannoia,40,10000,93615,broncopolmonite
+Eleanora,Smirnoff,40,16600,27378,broncopolmonite
+Gustavo,Gregori,80,16100,68290,influenza Intestinale
+Lina,Bonatti,90,16500,11942,broncopolmonite
+Annunziata,Bartoli,20,16100,18109,influenza Intestinale
+Antonino,Pavanello,10,10000,5891,covid-19
+Allegra,Cipolla,30,16600,48984,covid-19
+Dolores,Orlando,20,16500,27007,influenza Intestinale
+Romolo,Mengolo,10,16300,32051,influenza Intestinale
+Lauretta,Antelami,10,16700,7666,mononucleosi
+Annunziata,Barzini,90,16800,12438,influenza Intestinale
+Pina,Pininfarina,50,16800,94610,influenza
+Adamo,Antonelli,30,16600,23889,influenza Intestinale
+Santino,Nitto,10,16200,5398,polmonite
+Alberto,Zaguri,20,16600,9650,influenza
+Simonetta,Camanni,80,16400,88762,influenza
+Ottavio,Pinamonte,30,16200,47648,influenza Intestinale
+Adelasia,Tamburello,10,16200,4457,influenza Intestinale
+Giovanna,Broggini,40,16700,18653,mononucleosi
+Gianpaolo,Rastelli,20,16400,38476,mononucleosi
+Silvio,Ruggeri,80,16000,15033,covid-19
+Amleto,Bossi,60,16200,75202,polmonite
+Ludovica,Bodoni,80,16900,65987,influenza Intestinale
+Roberta,Caetani,50,16700,62200,influenza Intestinale
+Nedda,Mancini,60,16300,69422,mononucleosi
+Giovanna,Lussu,80,16300,66194,influenza
+Ansaldo,Galiazzo,90,16100,8251,broncopolmonite
+Marcantonio,Juvara,10,16500,2377,influenza Intestinale
+Alessandro,Bernardi,50,16400,49116,broncopolmonite
+Giacinto,Barillaro,90,10000,21831,influenza Intestinale
+Veronica,Cristoforetti,40,16800,46633,polmonite
+Lauretta,Saffi,80,16800,60127,mononucleosi
+Lando,Ruggeri,40,16300,74088,covid-19
+Tullio,Giolitti,90,16000,98322,influenza Intestinale
+Greca,Ottino,10,16700,7094,mononucleosi
+Amedeo,Depero,0,16000,1063,broncopolmonite
+Torquato,Benussi,20,16500,45353,mononucleosi
+Geronimo,Schiaparelli,90,16800,78922,mononucleosi
+Jolanda,Casellati,20,16300,15905,influenza Intestinale
+Pierina,Puccini,50,10000,57973,broncopolmonite
+Letizia,Loredan,80,16700,70455,influenza Intestinale
+Donna,Mannoia,80,16000,97742,covid-19
+Francesco,Cavalcanti,50,16600,30179,influenza Intestinale
+Tonia,Sagredo,70,16200,52060,broncopolmonite
+Tiziana,Pirelli,40,16300,57495,broncopolmonite
+Guarino,Federici,90,16600,92271,covid-19
+Ugo,Cavanna,20,16800,6556,influenza Intestinale
+Paulina,Venditti,90,16500,17519,covid-19
+Stefani,Basadonna,70,16200,82971,influenza Intestinale
+Amico,Tanzini,80,16000,55904,broncopolmonite
+Mariano,Brancaccio,50,16000,58369,covid-19
+Gloria,Cuomo,80,16200,79907,polmonite
+Pina,Querini,90,16300,45446,covid-19
+Concetta,Baracca,50,16400,63302,influenza Intestinale
+Benvenuto,Nugnes,80,16300,20914,influenza Intestinale
+Marissa,Gentilini,70,16900,11663,mononucleosi
+Victoria,Borrani,40,16600,59252,covid-19
+Alphons,Barberini,40,16500,22728,covid-19
+Fausto,Sandi,40,16700,60318,covid-19
+Mariano,Viola,80,16600,24629,covid-19
+Ronaldo,Marenzio,20,16100,49473,influenza Intestinale
+Dolores,Bernardi,30,16100,76181,mononucleosi
+Ciro,Venditti,50,16000,75359,covid-19
+Martina,Barillaro,40,16900,34279,polmonite
+Amalia,Gilardoni,30,16900,72159,covid-19
+Alessandro,Curiel,50,16000,89134,influenza
+Gianna,Marazzi,80,16500,78781,covid-19
+Giuseppina,Niggli,90,16600,49799,polmonite
+Francesca,Grassi,0,16200,7378,mononucleosi
+Ludovico,Farnese,80,16500,81900,polmonite
+Cassandra,Manunta,20,16600,31293,covid-19
+Elmo,Gioberti,40,16000,77584,influenza
+Maurilio,Giacometti,30,16800,9860,influenza Intestinale
+Gianmarco,Ottino,60,16500,59406,influenza Intestinale
+Sebastiano,Majorana,0,16000,96898,covid-19
+Antonio,Catenazzi,80,16800,37523,polmonite
+Ninetta,Ferrazzi,20,16400,49059,influenza Intestinale
+Giovanni,Trentin,20,16100,15900,covid-19
+Riccardo,Tiepolo,30,16000,21702,covid-19
+Alfio,Cignaroli,50,16900,70078,mononucleosi
+Damiano,Rosmini,80,16600,78616,polmonite
+Angelo,Tacchini,80,10000,26566,polmonite
+Concetta,Fibonacci,50,16300,7497,broncopolmonite
+Biagio,Bonatti,60,16900,3275,mononucleosi
+Gioele,Navarria,90,16300,73548,mononucleosi
+Veronica,Juvara,90,16400,52005,influenza Intestinale
+Benedetto,Cheda,40,16200,67354,polmonite
+Romana,Goldoni,50,16600,69804,mononucleosi
+Vincenza,Cusano,10,16000,1508,influenza
+Angelo,Faugno,80,16000,9391,broncopolmonite
+Giosuè,Brunelleschi,40,16900,1699,influenza Intestinale
+Massimiliano,Lombardi,10,16600,89000,covid-19
+Mauro,Caboto,60,16300,51419,influenza
+Fiamma,Tarantini,30,16200,80461,influenza Intestinale
+Mauro,Bulzoni,60,16800,11863,polmonite
+Marina,Ariasso,20,16000,6365,polmonite
+Durante,Ravaglioli,80,16700,80703,influenza Intestinale
+Nico,Chittolini,0,16000,3313,broncopolmonite
+Maurilio,Petralli,60,16200,21165,covid-19
+Gianluca,Zacchia,0,16600,6823,polmonite
+Gilberto,Pinamonte,0,16000,3403,influenza
+Nico,Venturi,20,16200,30447,influenza
+Enzio,Gucci,20,16500,37205,influenza
+Alessandro,Bertoni,30,16300,94521,covid-19
+Rosina,Toldo,50,16000,58984,polmonite
+Tiziana,Vendetti,90,16300,16260,mononucleosi
+Galasso,Bosurgi,80,16400,56045,polmonite
+Massimo,Falloppio,0,16700,6591,polmonite
+Liliana,Coardi,10,16500,8671,covid-19
+Sophia,Almagià,10,16400,9212,covid-19
+Jacopo,Ferretti,30,16000,74780,influenza Intestinale
+Raimondo,Gramsci,70,16200,55160,influenza
+Alderano,Benigni,30,10000,32854,influenza
+Lidia,Babbo,70,16500,18935,covid-19
+Benedetto,Pietrangeli,20,16100,20885,influenza Intestinale
+Rosaria,Desio,60,16200,31775,polmonite
+Etta,Micca,60,16700,22812,influenza Intestinale
+Camillo,Balbo,10,16300,6736,covid-19
+Tina,Boitani,10,16300,8227,polmonite
+Damiano,Sokolov,90,16000,8264,mononucleosi
+Lando,Pasqua,60,16600,10753,influenza Intestinale
+Gianpaolo,Badoglio,40,10000,18814,covid-19
+Alberto,Malacarne,80,16600,26283,broncopolmonite
+Priscilla,Lancisi,60,16000,13787,influenza
+Rodolfo,Notarbartolo,70,16000,19353,influenza
+Piergiuseppe,Turci,90,16200,1633,influenza
+Giulietta,Pacetti,30,16400,47816,covid-19
+Carolina,Morricone,70,16000,63127,influenza Intestinale
+Puccio,Pininfarina,50,16600,21008,influenza
+Vittorio,Toninelli,90,16800,76044,mononucleosi
+Ronaldo,Palazzo,60,16000,22442,polmonite
+Amanda,Tornatore,30,16800,52705,mononucleosi
+Renata,Vespucci,10,16900,9372,polmonite
+Luchino,Iadanza,50,16300,39206,broncopolmonite
+Eliana,Pisaroni,80,16200,68218,polmonite
+Alfio,Romagnoli,20,16800,45908,broncopolmonite
+Giacobbe,Savorgnan,0,16900,4653,polmonite
+Viridiana,Bertolucci,0,16000,957,influenza Intestinale
+Benvenuto,Vercelloni,10,16100,6677,influenza
+Allegra,Mattarella,90,16600,46423,covid-19
+Greco,Galtarossa,10,16000,9706,covid-19
+Lucrezia,Durante,10,16400,7714,influenza Intestinale
+Eva,Barzini,70,16200,65202,mononucleosi
+Girolamo,Cicilia,90,16500,37718,polmonite
+Isabella,Vendetti,70,16800,76104,covid-19
+Cesare,Mantegna,70,16800,26898,covid-19
+Raimondo,Cuzzocrea,30,16000,63329,broncopolmonite
+Antonietta,Bellocchio,0,16400,8861,influenza
+Uberto,Endrizzi,40,16600,60007,influenza Intestinale
+Alessio,Spinelli,60,16500,2030,mononucleosi
+Iolanda,Trevisan,70,16000,83809,influenza
+Raffaello,Conti,0,16500,7158,polmonite
+Silvio,Telesio,30,16600,81391,broncopolmonite
+Anita,Scarpa,80,16100,64541,polmonite
+Luciano,Satriani,10,16000,4699,influenza
+Temistocle,Morandi,60,16400,24796,broncopolmonite
+Valerio,Orengo,80,16000,84805,influenza
+Fiamma,Legnante,10,16900,9932,influenza Intestinale
+Isa,Tassoni,70,16400,43534,mononucleosi
+Rosalia,Pugliese,30,16300,37061,mononucleosi
+Ignazio,Lussu,80,16700,58724,broncopolmonite
+Ermenegildo,Mogherini,80,16100,9949,influenza
+Pasqual,Lamborghini,80,16000,72575,influenza
+Valerio,Volterra,60,10000,43476,covid-19
+Piergiuseppe,Giunti,40,16800,80126,mononucleosi
+Goffredo,Fuseli,70,16000,6435,covid-19
+Ranieri,Cabibbo,70,16700,79803,polmonite
+Paoletta,Saffi,50,16300,35260,polmonite
+Ronaldo,Tozzo,10,16800,9669,influenza
+Luciana,Norbiato,40,16300,32685,influenza
+Mariana,Tomasini,30,16300,20388,influenza
+Fiamma,Cavanna,60,16100,48312,covid-19
+Melissa,Tozzi,50,16800,93758,influenza
+Melania,Toninelli,80,16700,71903,covid-19
+Luca,Trombetta,70,16000,17822,mononucleosi
+Nico,Caboto,40,16200,82316,influenza Intestinale
+Patrizio,Ioppi,60,16000,78847,influenza
+Stella,Buonauro,80,16000,34904,mononucleosi
+Pina,Asmundo,40,16700,10266,covid-19
+Romolo,Grasso,90,16700,71567,polmonite
+Vincentio,Foscari,60,16000,75702,broncopolmonite
+Calogero,Ossani,50,16000,88989,influenza
+Amalia,Crespi,50,16100,18663,mononucleosi
+Toni,Sommaruga,60,16400,87097,polmonite
+Ignazio,Trussardi,70,16100,67896,mononucleosi
+Lolita,Rastelli,90,16200,56426,covid-19
+Ernesto,Zacchia,90,16500,82815,covid-19
+Dario,Romiti,40,16000,46088,broncopolmonite
+Lilla,Pometta,10,16200,6716,influenza Intestinale
+Amalia,Crespi,40,16100,57220,covid-19
+Tullio,Gaito,0,16000,3608,influenza
+Gaspare,Tasca,70,16200,3811,covid-19
+Fulvio,Dallara,50,16300,59329,covid-19
+Eva,Acerbi,0,16100,983,mononucleosi
+Paloma,Pirandello,0,16500,804,mononucleosi
+Nicolò,Navarria,20,16600,24171,influenza
+Margherita,Sagese,30,16400,95448,covid-19
+Claudia,Righi,0,16800,6004,influenza Intestinale
+Torquato,Baracca,60,10000,38837,broncopolmonite
+Giuliano,Fattori,0,16900,2127,polmonite
+Lauretta,Cesarotti,0,16600,4229,covid-19
+Vincentio,Gussoni,40,16500,19622,covid-19
+Patrizio,Canova,40,16900,81892,covid-19
+Riccardo,Cimarosa,80,16300,3355,influenza
+Federigo,Pertini,90,16800,63069,influenza
+Fiorino,Bertoli,80,16800,27833,influenza Intestinale
+Greco,Platini,80,16000,14203,mononucleosi
+Paride,Antonacci,30,16800,41626,mononucleosi
+Piergiorgio,Toscani,60,16000,50269,influenza Intestinale
+Fiorenzo,Cugia,50,16800,50711,influenza
+Greca,Broschi,10,16000,7018,broncopolmonite
+Giorgio,Valier,10,16000,1536,polmonite
+Sabatino,Paganini,10,16100,8117,broncopolmonite
+Amanda,Mazzanti,20,16600,5340,mononucleosi
+Caterina,Tomasetti,70,16000,84347,mononucleosi
+Federico,Interminelli,60,16000,88398,broncopolmonite
+Rosina,Bignami,50,16000,72453,influenza Intestinale
+Ludovica,Capecchi,10,16400,7037,covid-19
+Ilaria,Ceci,70,16700,35018,polmonite
+Tullio,Brichese,40,16000,61724,mononucleosi
+Melissa,Camuccini,70,16100,75063,mononucleosi
+Gastone,Veneziano,0,16700,7160,broncopolmonite
+Silvia,Belletini,70,16700,80641,mononucleosi
+Giulia,Rosselli,50,16000,20910,covid-19
+Fortunata,Taccola,80,16100,93687,covid-19
+Corrado,Leone,70,16300,50669,covid-19
+Laureano,Stefanelli,60,16000,45868,broncopolmonite
+Nino,Luna,40,16400,8000,covid-19
+Lorenzo,Tacchini,90,16600,10556,influenza Intestinale
+Romina,Babato,70,16000,56616,polmonite
+Pasquale,Ferrara,20,16400,8714,influenza
+Gastone,Cagnin,30,16800,42914,polmonite
+Fabrizia,Schiavone,60,16900,95701,broncopolmonite
+Silvia,Cortese,60,16000,93443,mononucleosi
+Danilo,Callegari,90,16800,79762,broncopolmonite
+Giuliano,Respighi,50,16200,24655,broncopolmonite
+Amico,Peranda,70,16900,33995,polmonite
+Elmo,Viola,0,16800,2496,broncopolmonite
+Veronica,Silvestri,20,16200,14192,covid-19
+Nina,Gangemi,60,16800,39045,influenza
+Luisa,Nordio,50,16700,6776,mononucleosi
+Morena,Cilea,70,16800,27078,influenza
+Eugenia,Busoni,30,16200,27758,influenza Intestinale
+Sole,Chiaramonte,50,16700,86930,covid-19
+Bruno,Orengo,20,16800,37472,broncopolmonite
+Gianluigi,Sabatini,90,16100,70393,broncopolmonite
+Fiorino,Mondaini,60,16300,32390,influenza Intestinale
+Sandra,Zacchia,20,16900,34143,influenza Intestinale
+Nicola,Tosto,0,16000,1815,mononucleosi
+Annamaria,Paoletti,70,16000,67414,influenza
+Bernardo,Gabrieli,70,16900,92566,broncopolmonite
+Elladio,Tozzo,20,16500,19875,covid-19
+Silvia,Lucarelli,30,16600,9150,broncopolmonite
+Griselda,Fischetti,60,16800,39106,covid-19
+Giada,Tencalla,10,16300,9397,mononucleosi
+Raffaele,Binaghi,50,16200,77778,covid-19
+Adriana,Tarantino,10,16600,9940,polmonite
+Lina,Bevilacqua,70,16000,55881,influenza
+Priscilla,Callegaro,10,16200,5441,polmonite
+Lamberto,Brancaccio,80,16800,74730,influenza
+Torquato,Palombi,50,16500,6485,covid-19
+Marcella,Sinisi,40,16000,25792,broncopolmonite
+Claudia,Zola,20,16000,28948,mononucleosi
+Pietro,Oscuro,0,16300,1441,mononucleosi
+Griselda,Angiolello,80,16800,64773,mononucleosi
+Martino,Staglieno,30,16400,10819,mononucleosi
+Bettina,Ravaglioli,60,16600,79177,covid-19
+Augusto,Mocenigo,60,10000,69008,influenza Intestinale
+Jolanda,Lucarelli,20,16200,8003,influenza
+Gioffre,Siffredi,0,16000,3971,influenza
+Mattia,Martucci,50,16900,81089,influenza Intestinale
+Paola,Gramsci,60,16800,15474,influenza
+Alderano,Mazzacurati,50,16200,55781,polmonite
+Adele,Quasimodo,40,16000,31427,broncopolmonite
+Melissa,Ramazzotti,60,16000,34623,polmonite
+Cesare,Vasari,60,16000,56017,broncopolmonite
+Paolo,Monaco,30,16600,87486,covid-19
+Paride,Sgalambro,0,16200,6230,influenza
+Adele,Lucciano,80,16100,49952,covid-19
+Pellegrino,Giannotti,60,16700,25109,polmonite
+Fabrizia,Alfonsi,30,16200,22504,mononucleosi
+Gianni,Tacchini,90,16000,69468,polmonite
+Tiziana,Cutuli,50,16900,45189,polmonite
+Rosalia,Agazzi,20,16100,18906,broncopolmonite
+Benedetto,Gualtieri,80,16700,28110,influenza Intestinale
+Virgilio,Sokolov,20,16700,17434,broncopolmonite
+Olga,Pozzecco,40,16600,92432,covid-19
+Olga,Caironi,20,16200,33515,influenza Intestinale
+Massimo,Zoppetto,80,16600,72527,covid-19
+Dionigi,Udinesi,0,16800,518,polmonite
+Elvira,Medici,0,16900,4283,broncopolmonite
+Loretta,Branciforte,70,16900,57314,mononucleosi
+Pomponio,Folliero,20,16600,21495,influenza
+Jolanda,Solimena,90,16000,99668,broncopolmonite
+Pierina,Zetticci,10,16000,7204,influenza
+Rita,Tutino,80,16000,17296,polmonite
+Dionigi,Comisso,40,16800,23337,mononucleosi
+Melania,Asprucci,60,16200,31379,mononucleosi
+Ottavio,Sforza,50,16800,92931,polmonite
+Giacobbe,Semitecolo,70,16900,87344,mononucleosi
+Ansaldo,Comboni,60,16300,62530,polmonite
+Arnulfo,Depero,30,16700,71672,polmonite
+Agnolo,Benussi,20,16300,46400,influenza
+Laureano,Garobbio,70,10000,40656,influenza Intestinale
+Oreste,Dallapé,50,16500,29910,influenza
+Gastone,Cerquiglini,70,16600,90808,influenza
+Adelasia,Toso,50,16800,76862,broncopolmonite
+Alberico,Micheletti,50,16300,42703,influenza Intestinale
+Melina,Finzi,0,16900,7214,mononucleosi
+Fabia,Desio,40,16100,76413,covid-19
+Michele,Luria,20,10000,42085,influenza Intestinale
+Fabio,Ajello,20,16100,24377,influenza
+Gioacchino,Vecoli,70,16900,56800,influenza
+Maura,Bandello,20,16200,28143,polmonite
+Stella,Giacometti,30,16500,39985,polmonite
+Imelda,Burcardo,90,16600,2346,influenza Intestinale
+Imelda,Bajamonti,10,16800,3674,mononucleosi
+Alina,Montanelli,10,16900,7950,influenza Intestinale
+Simone,Gilardoni,50,16000,75926,mononucleosi
+Ettore,Fuseli,20,16400,15026,broncopolmonite
+Gioffre,Lattuada,40,16000,33431,covid-19
+Saverio,Greggio,0,16100,20086,influenza Intestinale
+Hugo,Caffarelli,10,16000,8116,covid-19
+Nina,Condoleo,90,16000,96933,mononucleosi
+Camilla,Cavalcanti,40,16000,18104,mononucleosi
+Oreste,Monicelli,30,16500,71474,influenza Intestinale
+Gabriele,Mancini,50,16700,46840,broncopolmonite
+Giacomo,Foconi,80,16100,16917,influenza
+Rocco,Ossola,10,16200,29105,influenza Intestinale
+Hugo,Fattori,90,16300,81102,polmonite
+Marcella,Mimun,90,16500,4044,influenza
+Rosalia,Polizzi,50,16100,95837,influenza Intestinale
+Fernanda,Panzera,50,16000,35399,covid-19
+Livio,Peano,60,16000,33505,polmonite
+Amadeo,Alfieri,80,16100,81354,broncopolmonite
+Michelangelo,Fuseli,40,16700,30527,broncopolmonite
+Vittoria,Gotti,60,16300,74135,mononucleosi
+Filippa,Duodo,40,16600,14575,covid-19
+Michela,Pugliese,80,16200,78699,influenza Intestinale
+Erika,Bocelli,0,16000,2604,influenza Intestinale
+Simonetta,Stoppani,50,16700,51302,covid-19
+Ricciotti,Trincavelli,30,16700,51115,mononucleosi
+Stella,Gangemi,20,16900,13243,mononucleosi
+Fiamma,Pucci,20,16300,34795,mononucleosi
+Raffaello,Grasso,40,16900,31069,influenza Intestinale
+Liberto,Novaro,90,16400,44708,covid-19
+Raffaello,Venturi,80,16200,84028,broncopolmonite
+Annetta,Aulenti,30,16200,27296,broncopolmonite
+Uberto,Moresi,0,16600,5350,influenza Intestinale
+Biagio,Casaleggio,60,16800,7689,influenza Intestinale
+Giada,Impastato,10,16000,7269,covid-19
+Sophia,Caracciolo,60,16600,22990,influenza Intestinale
+Annunziata,Venditti,0,16900,1380,mononucleosi
+Damiano,Boito,40,16900,52103,polmonite
+Torquato,Juvara,90,16100,87891,mononucleosi
+Matilda,Doglioni,20,16000,42878,influenza
+Giuseppina,Bacosi,50,16100,41600,polmonite
+Alessio,Gaito,0,16900,65522,mononucleosi
+Melissa,Interminei,80,16000,27380,polmonite
+Cassandra,Metella,50,16300,9147,broncopolmonite
+Raffaella,Rossini,0,16300,4630,influenza
+Livio,Camilleri,70,16700,54139,influenza
+Annalisa,Manzoni,80,16000,4484,broncopolmonite
+Panfilo,Surian,30,16200,5911,mononucleosi
+Ezio,Capone,30,16100,36410,mononucleosi
+Sante,Bertoli,40,16400,16267,broncopolmonite
+Ettore,Volterra,20,16300,38352,polmonite
+Lolita,Carocci,60,16000,31705,covid-19
+Francesco,Borromeo,0,16400,3373,broncopolmonite
+Gino,Pellegrini,30,16700,94659,mononucleosi
+Maurizio,Gentilini,70,16500,76591,broncopolmonite
+Flora,Cafarchia,70,16000,50721,influenza Intestinale
+Sole,Magnani,30,16600,32464,influenza Intestinale
+Giancarlo,Gozzi,30,16000,5695,influenza Intestinale
+Beatrice,Gatto,0,16100,2851,mononucleosi
+Cristina,Maggioli,90,16600,46498,influenza Intestinale
+Michelangelo,Onisto,10,16900,7645,polmonite
+Cipriano,Deledda,70,16600,36992,mononucleosi
+Salvi,Botticelli,90,16900,8483,influenza
+Ubaldo,Goldstein,70,16000,58846,influenza
+Germana,Pacillo,80,16700,5804,broncopolmonite
+Nadia,Falcone,50,16000,33295,polmonite
+Baldassare,Federici,80,16200,99156,covid-19
+Stefania,Modugno,60,16100,55364,covid-19
+Sylvia,Comboni,50,16700,80875,polmonite
+Gianfrancesco,Fallaci,40,16700,21272,polmonite
+Agnolo,Trotta,20,16900,9839,broncopolmonite
+Coriolano,Natta,40,16800,47465,polmonite
+Paulina,Broschi,20,16900,17162,influenza
+Rembrandt,Monti,80,16400,2881,broncopolmonite
+Romeo,Vezzali,50,16200,44873,covid-19
+Anita,Zola,0,16700,1287,broncopolmonite
+Gioacchino,Luxardo,70,16800,12119,broncopolmonite
+Ugolino,Mazzini,20,16800,9628,broncopolmonite
+Isabella,Tassoni,40,16000,75764,broncopolmonite
+Antonella,Pascarella,0,16000,7428,covid-19
+Nina,Pellico,50,16900,11109,covid-19
+Mariana,Medici,50,16300,28454,broncopolmonite
+Pier,Agnesi,0,16700,1879,influenza Intestinale
+Gionata,Mantegazza,80,16000,22060,influenza
+Irma,Finzi,20,16200,40408,broncopolmonite
+Enzio,Manacorda,30,16400,90290,covid-19
+Baccio,Vismara,20,16400,20521,influenza
+Donna,Alfieri,30,16500,49021,broncopolmonite
+Nina,Fallaci,30,16200,27041,influenza Intestinale
+Piergiorgio,Valentino,30,16000,81180,influenza Intestinale
+Ludovica,Borgia,40,16000,16769,polmonite
+Sonia,Cortese,20,10000,24987,influenza Intestinale
+Gilberto,Giannini,10,16900,14592,broncopolmonite
+Patrizia,Iannuzzi,0,16700,9887,polmonite
+Fabio,Berlusconi,10,16200,7219,covid-19
+Zaira,Ficino,10,16700,5303,mononucleosi
+Giustino,Zamengo,30,16300,33203,covid-19
+Vanessa,Niscoromni,40,16500,31951,covid-19
+Matteo,Dossi,0,16000,7877,influenza
+Ricciotti,Guarana,70,16500,16766,broncopolmonite
+Amico,Vecoli,0,16300,3775,influenza Intestinale
+Iolanda,Fallaci,80,16400,90537,polmonite
+Francesco,Ravaglioli,20,16500,32459,covid-19
+Gianpaolo,Toscani,20,16800,26438,polmonite
+Elisa,Pacetti,80,16800,77618,polmonite
+Alfredo,Paoletti,50,16900,23362,covid-19
+Antonina,Udinese,10,16000,2154,mononucleosi
+Ranieri,Giradello,70,16000,43144,polmonite
+Francesca,Saracino,0,16000,9823,influenza
+Baldassare,Marzorati,60,16800,26415,covid-19
+Virginia,Monaco,10,16500,5781,broncopolmonite
+Donatello,Canali,10,16500,27578,broncopolmonite
+Baldassare,Mondaini,0,16600,87895,broncopolmonite
+Sabatino,Ludovisi,10,16000,40262,influenza Intestinale
+Gianmarco,Boaga,10,16000,4929,mononucleosi
+Gianna,Venier,30,16200,95913,mononucleosi
+Claudio,Caffarelli,80,16300,97371,influenza Intestinale
+Fedele,Foà,50,16200,12294,mononucleosi
+Antonina,Lombardo,30,16600,37807,polmonite
+Liliana,Nolcini,50,16900,43742,influenza Intestinale
+Dino,Nolcini,0,16000,126,covid-19
+Domenico,Fermi,40,16800,57184,covid-19
+Costantino,Bonino,70,16800,22197,broncopolmonite
+Barbara,Carli,90,16400,53040,broncopolmonite
+Ermenegildo,Pizzamano,80,16300,19948,broncopolmonite
+Romana,Cavalcanti,50,16800,59003,influenza Intestinale
+Rita,Depero,50,16200,31562,influenza Intestinale
+Ermes,Saraceno,80,16800,16007,influenza Intestinale
+Sandro,Alonzi,60,16700,42364,broncopolmonite
+Veronica,Scalfaro,30,16800,6677,broncopolmonite
+Ansaldo,Antonini,40,16000,25286,mononucleosi
+Giulia,Priuli,10,16200,97443,influenza Intestinale
+Nico,Dalla,0,16000,9703,influenza Intestinale
+Aldo,Rismondo,10,16400,6102,covid-19
+Costanzo,Giovine,30,16600,33280,polmonite
+Aldo,Ruberto,90,16000,13759,covid-19
+Stefani,Zanazzo,70,16400,35836,mononucleosi
+Calogero,Fittipaldi,20,16700,25454,mononucleosi
+Armando,Giannelli,80,16000,96940,polmonite
+Mirko,Martinelli,0,16100,2085,influenza
+Giancarlo,Gaggini,40,16000,28685,broncopolmonite
+Pier,Salvo,20,16900,11571,mononucleosi
+Amedeo,Casellati,30,16700,62630,mononucleosi
+Luciano,Alfonsi,50,16500,61278,polmonite
+Paoletta,Puglisi,20,16200,32456,covid-19
+Clelia,Cadorna,80,16000,71067,polmonite
+Imelda,Curatoli,0,16200,25713,covid-19
+Piergiorgio,Cabibbo,0,16000,93758,influenza
+Raimondo,Tresoldi,0,16400,16461,influenza Intestinale
+Giampiero,Querini,60,16000,34970,broncopolmonite
+Daria,Fogazzaro,50,16900,80068,influenza
+Carmelo,Gramsci,40,16000,97719,mononucleosi
+Osvaldo,Modugno,40,16800,41892,broncopolmonite
+Biagio,Traversa,0,16100,3433,mononucleosi
+Luciana,Montanari,60,16100,68063,mononucleosi
+Amedeo,Einaudi,60,16400,96622,polmonite
+Fiorenzo,Zoppetti,40,16600,55897,polmonite
+Guido,Berlusconi,80,16500,7836,covid-19
+Gian,Pucci,10,16800,6777,covid-19
+Ricciotti,Errani,40,16200,50961,influenza
+Sebastiano,Pugliese,0,16700,7708,polmonite
+Giulia,Gualandi,90,16700,44693,covid-19
+Geronimo,Oscuro,20,16300,32645,mononucleosi
+Aldo,Ortolani,50,16000,3962,mononucleosi
+Armando,Orengo,90,16900,22968,broncopolmonite
+Ippazio,Maderna,30,16700,69893,polmonite
+Gianmarco,Vendetti,80,16200,14764,mononucleosi
+Mirco,Renzi,30,10000,21668,influenza
+Guarino,Torlonia,50,16700,43686,polmonite
+Ciro,Micheletti,10,16200,9441,polmonite
+Uberto,Palladio,80,16600,73748,mononucleosi
+Ronaldo,Lopresti,70,16700,9608,mononucleosi
+Stefania,Angeli,20,16000,20473,covid-19
+Vincenzo,Natta,70,16100,66930,broncopolmonite
+Ricciotti,Righi,0,16300,5998,influenza
+Amico,Giacconi,80,16900,13066,influenza
+Fabrizio,Paltrinieri,90,16000,99431,influenza
+Claudio,Casalodi,10,16500,8838,mononucleosi
+Sebastiano,Trobbiani,0,16000,3083,influenza Intestinale
+Ricciotti,Albertini,30,16200,24489,influenza Intestinale
+Sabatino,Chinnici,70,10000,11363,mononucleosi
+Panfilo,Ponti,50,16300,73261,broncopolmonite
+Susanna,Bompiani,30,16600,22876,mononucleosi
+Gioachino,Cipolla,40,16000,20859,covid-19
+Susanna,Sollima,20,16000,42190,broncopolmonite
+Vittoria,Piazzi,40,16300,15844,influenza Intestinale
+Carolina,Blasi,40,16900,49535,mononucleosi
+Vittorio,Carpaccio,70,16400,86728,mononucleosi
+Maria,Montanariello,20,16400,20540,influenza Intestinale
+Ignazio,Tuzzolino,0,16600,74025,polmonite
+Antonino,Spanevello,40,16300,10567,influenza
+Augusto,Viviani,20,16100,27263,mononucleosi
+Enzio,Calgari,0,16500,8063,influenza Intestinale
+Corrado,Casadei,90,16300,89034,covid-19
+Marco,Orlando,0,16000,6763,broncopolmonite
+Alphons,Barbarigo,40,16000,54612,mononucleosi
+Monica,Morucci,60,16500,12715,influenza Intestinale
+Maurilio,Contrafatto,40,16500,88257,influenza Intestinale
+Daria,Monti,30,16300,27204,polmonite
+Gaspare,Basso,0,16200,4370,mononucleosi
+Marisa,Fo,60,16900,3189,influenza
+Tina,Bragadin,40,16000,36797,covid-19
+Tonino,Oscuro,0,16200,8631,polmonite
+Benito,Rossi,90,16700,61004,covid-19
+Tonino,Barberini,30,16800,34123,mononucleosi
+Pomponio,Flaiano,70,10000,61788,influenza
+Giulietta,Campanella,60,16600,92741,influenza
+Arnulfo,Trincavelli,80,16900,4897,influenza
+Elmo,Gradenigo,50,16400,24809,covid-19
+Fabia,Gadda,40,16000,59961,mononucleosi
+Edoardo,Gianetti,20,16700,12254,influenza
+Liliana,Pagliaro,40,16900,21998,covid-19
+Griselda,Duse,0,16000,2209,covid-19
+Annunziata,Tarantino,10,16000,6426,polmonite
+Sebastiano,Ciampi,50,16000,99590,influenza
+Eraldo,Carriera,70,16700,46208,influenza
+Renzo,Doria,50,16100,48010,covid-19
+Gabriele,Merisi,80,16500,65738,broncopolmonite
+Alessandro,Soderini,90,16600,29115,influenza Intestinale
+Vincentio,Crispi,50,16900,66256,influenza
+Giuliano,Garozzo,70,16400,56987,polmonite
+Matteo,Rastelli,90,16200,70665,influenza Intestinale
+Dario,Piccinni,0,16900,93554,mononucleosi
+Lodovico,Puccini,60,16700,5217,polmonite
+Giuliano,Crispi,20,16200,47728,polmonite
+Giuseppe,Vergassola,90,16800,94533,broncopolmonite
+Leone,Ferrucci,30,16000,61568,influenza
+Amico,Tomasetti,30,16000,7017,influenza
+Massimo,Errigo,70,16800,18436,mononucleosi
+Galasso,Eco,70,16600,87705,influenza
+Angelica,Savorgnan,80,16600,80238,mononucleosi
+Geronimo,Porzio,90,16200,46824,broncopolmonite
+Agnolo,Fanucci,0,10000,12695,broncopolmonite
+Eva,Tamburini,10,16100,2731,covid-19
+Rossana,Dalla,50,16600,31689,covid-19
+Lara,Chinnici,40,16000,55902,polmonite
+Stefania,Guglielmi,70,16300,14229,influenza Intestinale
+Livio,Seddio,90,10000,12102,broncopolmonite
+Pompeo,Stoppani,90,16300,15257,polmonite
+Mirco,Migliaccio,50,16700,53291,covid-19
+Bernardo,Cadorna,90,16700,43686,polmonite
+Massimiliano,Saracino,10,16800,76061,broncopolmonite
+Antonia,Morellato,60,16900,35969,mononucleosi
+Laureano,Spadafora,40,16000,1045,polmonite
+Michele,Trotta,70,16000,70672,covid-19
+Viridiana,Traetta,60,16900,50182,covid-19
+Pierangelo,Morricone,80,16000,47276,mononucleosi
+Annamaria,Bellocchio,40,16400,47279,polmonite
+Giulia,Luna,90,16000,58600,mononucleosi
+Marcella,Sagese,60,16300,63430,polmonite
+Raffaello,Villarosa,0,16400,7582,polmonite
+Pasqual,Gozzano,40,16000,38485,mononucleosi
+Gloria,Villadicani,60,16200,17459,mononucleosi
+Roberta,Pacillo,90,16000,31232,broncopolmonite
+Elmo,Casarin,80,16000,4424,covid-19
+Marcantonio,Sandi,0,16000,6282,influenza
+Melina,Tron,90,16700,49289,mononucleosi
+Telemaco,Valmarana,90,16500,59798,mononucleosi
+Melina,Bignardi,40,16900,15138,influenza
+Eva,Bocelli,0,16300,23318,polmonite
+Milo,Trezzini,90,16700,96776,mononucleosi
+Biagio,Tonisto,10,16000,2541,influenza
+Nico,Duse,30,16700,14888,broncopolmonite
+Angelo,Rastelli,80,16700,62244,broncopolmonite
+Gabriella,Vitturi,60,16700,76611,influenza
+Viridiana,Cheda,10,16600,5888,broncopolmonite
+Marta,Mezzetta,60,16000,64033,polmonite
+Victoria,Faugno,80,16900,59028,broncopolmonite
+Alfio,Papafava,60,10000,79354,influenza Intestinale
+Cipriano,Paolucci,40,16400,66813,influenza
+Ludovica,Giusti,10,16600,3874,influenza Intestinale
+Delfino,Barcaccia,0,16900,7887,mononucleosi
+Eva,Aloisio,70,16300,34477,polmonite
+Alina,Iadanza,30,16800,44564,influenza
+Gianfranco,Accardo,60,16500,37181,polmonite
+Tullio,Andreotti,50,16600,90018,broncopolmonite
+Lina,Pisacane,0,10000,52666,mononucleosi
+Germana,Fagotto,70,16000,44644,covid-19
+Raffaella,Grisoni,50,16400,98818,mononucleosi
+Coluccio,Bombieri,60,16200,75726,influenza Intestinale
+Ubaldo,Carosone,50,16000,18173,influenza
+Ottavio,Pizzetti,50,16400,98226,broncopolmonite
+Gaspare,Botticelli,90,16700,56674,mononucleosi
+Osvaldo,Mantegazza,30,16100,31192,mononucleosi
+Morena,Argurio,30,16100,10504,broncopolmonite
+Gionata,Antonacci,50,16500,51713,influenza Intestinale
+Sante,Iannucci,70,16200,62836,covid-19
+Flavia,Filzi,30,16800,13322,influenza
+Ubaldo,Panatta,80,16600,75906,influenza
+Michelotto,Mazzeo,20,16000,43650,mononucleosi
+Dario,Cociarelli,70,16000,79711,broncopolmonite
+Ignazio,Bonaventura,0,10000,43434,mononucleosi
+Laureano,Guarana,0,10000,5760,broncopolmonite
+Arnulfo,Orsini,40,16500,21408,mononucleosi
+Fedele,Turati,90,16000,51358,influenza
+Lucia,Pascarella,80,16500,78305,broncopolmonite
+Flavia,Campano,20,16900,44461,polmonite
+Tullio,Bonaventura,50,16400,62984,influenza Intestinale
+Germana,Paoletti,70,16500,72320,influenza Intestinale
+Ugo,Frescobaldi,90,16000,23598,mononucleosi
+Oreste,Santi,70,16000,93515,influenza Intestinale
+Giampiero,Tafuri,20,16700,29187,influenza Intestinale
+Giampaolo,Pezzali,70,16000,24415,influenza
+Melina,Bignardi,90,16600,75087,influenza Intestinale
+Leopoldo,Pisano,20,10000,37180,influenza Intestinale
+Fredo,Giacometti,90,16100,56343,polmonite
+Michelotto,Pulci,90,16900,4326,influenza
+Cirillo,Camuccini,90,16700,88901,covid-19
+Simonetta,Lancisi,80,16200,57164,mononucleosi
+Roman,Quasimodo,50,16200,88878,covid-19
+Morena,Fusani,10,16000,5028,influenza
+Mariano,Pepe,60,16000,73551,influenza Intestinale
+Melina,Briccialdi,30,16100,50896,covid-19
+Vincenza,Trapanese,40,16000,38388,influenza
+Ludovico,Rensi,60,16300,86936,influenza Intestinale
+Sebastiano,Tencalla,10,16000,1468,polmonite
+Pietro,Salgari,60,16400,48261,mononucleosi
+Silvio,Druso,80,16000,67352,polmonite
+Luca,Letta,0,16400,38773,mononucleosi
+Raffaellino,Emo,30,16000,4102,mononucleosi
+Gianni,Platini,60,16000,84830,polmonite
+Loredana,Cilibrasi,0,16700,2411,influenza
+Amico,Battaglia,30,16900,42951,broncopolmonite
+Elmo,Vezzali,70,16300,8642,polmonite
+Ottavio,Gianetti,60,16000,21243,influenza
+Pellegrino,Raimondi,70,16900,39437,influenza Intestinale
+Dolores,Totino,40,16400,73452,covid-19
+Giulia,Bettin,20,16000,49536,covid-19
+Ciro,Murialdo,0,16600,6422,covid-19
+Anita,Favata,70,16300,39844,covid-19
+Gianfranco,Correr,0,16300,9197,polmonite
+Rembrandt,Aulenti,0,10000,6505,broncopolmonite
+Marina,Ferrucci,60,16200,79537,influenza
+Sonia,Dalla,30,16200,46232,polmonite
+Jacopo,Satta,0,16300,493,influenza
+Annalisa,Barbarigo,60,16300,33815,influenza
+Luchino,Carosone,0,16800,83626,covid-19
+Livio,Benigni,10,16900,5531,broncopolmonite
+Rita,Donarelli,70,16500,47287,mononucleosi
+Renata,Biagi,50,16400,53246,influenza
+Pierangelo,Salvemini,70,16500,36834,broncopolmonite
+Carolina,Ricci,60,16000,80164,influenza Intestinale
+Amico,Antonucci,80,16000,69208,broncopolmonite
+Pierangelo,Cavalcanti,30,16000,99828,polmonite
+Leonardo,Nitti,90,16400,24049,influenza
+Elmo,Mazzi,0,16000,8868,influenza Intestinale
+Dario,Einaudi,20,16500,48522,mononucleosi
+Ignazio,Legnante,40,16400,83724,broncopolmonite
+Emilio,Bottigliero,0,16600,8487,mononucleosi
+Gioffre,Franzese,20,16000,20173,covid-19
+Lidia,Cattaneo,0,16200,14541,influenza Intestinale
+Angelica,Lombardi,40,16700,79880,covid-19
+Stefano,Littizzetto,30,16600,11469,mononucleosi
+Paulina,Giannetti,0,16000,897,mononucleosi
+Ivo,Morosini,80,16000,94786,polmonite
+Geronimo,Cocci,80,16000,21735,polmonite
+Lisa,Telesio,0,16600,4941,influenza Intestinale
+Giacinto,Bertoli,0,16900,65044,covid-19
+Ferdinando,Torlonia,30,16700,27050,broncopolmonite
+Sergius,Zoppetti,0,16700,421,broncopolmonite
+Nicoletta,Crispi,40,10000,26805,broncopolmonite
+Enzio,Moretti,50,16000,75004,covid-19
+Augusto,Agostini,30,16000,13339,broncopolmonite
+Ottavio,Opizzi,10,10000,3243,mononucleosi
+Arnulfo,Puglisi,10,16300,10694,covid-19
