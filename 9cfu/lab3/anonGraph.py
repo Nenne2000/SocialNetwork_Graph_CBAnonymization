@@ -1,6 +1,4 @@
 #!/bin/python3
-
-from collections import deque
 from collections import defaultdict
 
 
@@ -30,7 +28,7 @@ def check(G, k, l):
     return True
 
 
-V = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+V = [1,2,3,4,5,6,7,8,9,10,20,30,40,50,60,70]
 E = [ 
     (1,2),
     (1,3),
@@ -42,11 +40,13 @@ E = [
     (9,7),
     (8,7),
     (7,10),
-    (10,11),
-    (11,12),
-    (11,13),
-    (11,14),
-    (14,15)
+    (60,20),
+    (30,70),
+    (20,30),
+    (60,70),
+    (50,60),
+    (40,50),
+    (40,70)
 ]
 
 G = (V, E)
@@ -63,7 +63,7 @@ def get_neighbors(G):
         res[node] = graph[node]
     return res
 
-def check_paths(G, deficit):
+def check_isolated_paths(G, deficit):
     V, E = G
     neighbors = get_neighbors(G)
 
@@ -79,12 +79,20 @@ def check_paths(G, deficit):
                     deficit.add(v)
                     deficit.add(curr)
                 if(len(path)<4): #se abbiamo trovato un isolated path di max 4 elementi
-                    print(path)
+                    print("path:"+str(path),"v:"+str(v))
                     for i in range(1,len(path)):
                         deficit.add(path[i])
-            elif len(path) == 2:
-                deficit.add(curr)
 
+def check_paths(G, deficit):
+    V, E = G
+    neighbors = get_neighbors(G)
+
+    for v in V:
+        if len(neighbors[v]) <= 2:
+            for u in neighbors[v]:
+                if len(neighbors[u]) == 2:
+                    deficit.add(u)
+                 
 # square: uvwx
 def check_square(G, deficit):
     V, E = G
@@ -106,16 +114,15 @@ def check_square(G, deficit):
             if len(neighbors[curr]) >= 2 and v in neighbors[curr] and len(path)==3: #se l'ultimo vertice chiude il quadrato
                 path.append(curr)
                 if all(len(neighbors[p]) == 2 for p in path):
-                    print("v:"+str(v),"curr:"+str(curr))
+                    #print("v:"+str(v),"curr:"+str(curr))
                     deficit.add(path[0])
                     deficit.add(path[2])           
                 elif any(len(neighbors[p]) > 2 for p in path):
-                    print("v:"+str(v),"curr:"+str(curr))
+                    #print("v:"+str(v),"curr:"+str(curr))
                     deficit.add(path[1])
                     
                 for p in path:
                     visited.add(p)
-
 
 #for a subgraph consisting of a vertex u adjacent to vertices xi of degree 1 and to a vertex y of degree 2,
 # assign deficit 1 to y.
@@ -131,15 +138,14 @@ def check_component(G, deficit):
             if len(neighbors[n])==2:
                 if y==None:
                     y = n #abbiamo trovato un vicino che ha grado 2
-                else: break #se c'è più di un vicino a grado 2, v non va bene
+                else: 
+                    y = None #pulisco y perchè ho trovato più di un vicino a grado 2
+                    break #se c'è più di un vicino a grado 2, v non va bene
         if y != None:
-            print(v)
+            #print(v)
             deficit.add(y)
-            return
 
-
-
-def isolated_component(G, deficit):
+def check_isolated_component(G, deficit):
     V, E = G
     neighbors = get_neighbors(G)
     for u in V:
@@ -151,12 +157,42 @@ def isolated_component(G, deficit):
 
 def main():
     deficit = set()
-    #neighbors = isolated_edges(G, deficit)
     neighbors = get_neighbors(G)
-    print(neighbors)
-    check_square(G, deficit)
-    check_component(G,deficit)
-    print(deficit)
+    check_isolated_paths(G, deficit) #casi 1,2,3
+    check_paths(G, deficit) #caso 4
+    check_isolated_component(G, deficit) #caso 5
+    check_square(G, deficit) #caso 6,7 e forse anche 8
+    check_component(G, deficit) #caso 9
+
+    print("deficit presenti nel grafo: " + str(deficit))
+
+    m = len(deficit) // 2
+    non_adjacent_vertices = []
+    deficit = list(deficit)
+    for v in deficit:
+        for u in deficit:
+            if u == v:
+                continue
+            if u not in neighbors[v]:
+                non_adjacent_vertices.append((v,u))
+                deficit.remove(v)
+                deficit.remove(u)
+            break
+
+
+    if len(deficit) % 2 == 1:
+        for v in V:
+            if v not in deficit and len(neighbors[v]) >= 2:
+                non_adjacent_vertices.append((v, deficit[0]))
+                break
+    
+    for edge in non_adjacent_vertices:
+        E.append(edge)
+    
+    print("i vertici non adiacenti sono: " + str(non_adjacent_vertices))
+
+    print("(2,1)-anonimizzato? " + str(check(G, 2,1)))
+
 
 
 if __name__ == "__main__":
