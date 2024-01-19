@@ -49,8 +49,7 @@ E = [
     (50,60),
     (40,50),
     (40,70)
-    '''
-
+'''
 
 
 G = (V, E)
@@ -67,9 +66,9 @@ def get_neighbors(G):
         res[node] = graph[node]
     return res
 
-def check_isolated_paths(G, deficit):
-    V, E = G
-    neighbors = get_neighbors(G)
+neighbors = get_neighbors(G)
+
+def check_isolated_paths(deficit): #checks any isolated valid path combinations
 
     for v in V:
         if len(neighbors[v]) == 1:
@@ -79,79 +78,67 @@ def check_isolated_paths(G, deficit):
                 path.append(curr)
                 curr = neighbors[curr][0]    
             if len(neighbors[curr])  == 1:
-                if(len(path))==1: #se abbiamo trovato un isolated edge
+                if(len(path))==1: #if we find an isolated edge
                     deficit.add(v)
                     deficit.add(curr)
-                if(len(path)<4): #se abbiamo trovato un isolated path di max 4 elementi
+                if(len(path)<4): #if we find an isolated path of max 4 elements
                     print("path:"+str(path),"v:"+str(v))
                     for i in range(1,len(path)):
                         deficit.add(path[i])
 
-def check_paths(G, deficit):
-    V, E = G
-    neighbors = get_neighbors(G)
-
+def check_paths(deficit):
     for v in V:
-        if len(neighbors[v]) <= 2:
+        if len(neighbors[v]) <= 2: 
             for u in neighbors[v]:
                 if len(neighbors[u]) == 2:
                     deficit.add(u)
                  
 # square: uvwx
-def check_square(G, deficit):
-    V, E = G
-    neighbors = get_neighbors(G)
-    visited = set()
+def check_square(deficit):
+
+    visited = set() #set of visited nodes to avoid visiting them again
+    
     for v in V:
-        if len(neighbors[v]) >= 2 and v not in visited: #se abbiamo trovato un primo vertice candidato del quadrato  
+        if len(neighbors[v]) >= 2 and v not in visited: #if we have found the first candidate vertix of the square
             path = [v]
-            prev = v #teniamo traccia dell'ultimo nodo visitato (default: il primo)
+            prev = v #we keep track of the last visited node (default: the first one)
             curr = neighbors[v][0]
             c = 0
-            while len(neighbors[curr]) == 2 and c < 2: #finchè troviamo prossimi vicini di grado 2 (max: 2 iterazioni)
+            while len(neighbors[curr]) == 2 and c < 2: #while we find next neighbors of degree 2 (max: 2 iterations)
                 path.append(curr)
                 next_vertex = neighbors[curr][0] if neighbors[curr][1] == prev else neighbors[curr][1]
                 prev = curr
                 curr = next_vertex
                 c = c+1
 
-            if len(neighbors[curr]) >= 2 and v in neighbors[curr] and len(path)==3: #se l'ultimo vertice chiude il quadrato
+            if len(neighbors[curr]) >= 2 and v in neighbors[curr] and len(path)==3: #if the last vertix closed the square
                 path.append(curr)
                 if all(len(neighbors[p]) == 2 for p in path):
-                    #print("v:"+str(v),"curr:"+str(curr))
                     deficit.add(path[0])
                     deficit.add(path[2])           
                 elif any(len(neighbors[p]) > 2 for p in path):
-                    #print("v:"+str(v),"curr:"+str(curr))
                     deficit.add(path[1])
                     
                 for p in path:
                     visited.add(p)
 
-#for a subgraph consisting of a vertex u adjacent to vertices xi of degree 1 and to a vertex y of degree 2,
-# assign deficit 1 to y.
-def check_component(G, deficit):
-    V, E = G
-    neighbors = get_neighbors(G)
+def check_component(deficit):
     for v in V:
-        y = None #vicino da ipoteticamente aggiungere a deficit
+        y = None #candidate variable for the node that will be put in deficit
         for n in neighbors[v]:
             if len(neighbors[n])>2:
                 y = None
                 break
             if len(neighbors[n])==2:
                 if y==None:
-                    y = n #abbiamo trovato un vicino che ha grado 2
+                    y = n #we have found a neighbor that has degree 2
                 else: 
-                    y = None #pulisco y perchè ho trovato più di un vicino a grado 2
-                    break #se c'è più di un vicino a grado 2, v non va bene
+                    y = None #cleaning y because we have found more than a 2 degree neighbor
+                    break #if there is more than a 2 degree neighbor, v doesn't fit
         if y != None:
-            #print(v)
             deficit.add(y)
 
-def check_isolated_component(G, deficit):
-    V, E = G
-    neighbors = get_neighbors(G)
+def check_isolated_component(deficit):
     for u in V:
         if len(neighbors[u]) == 1:
             v = neighbors[u][0]
@@ -162,11 +149,11 @@ def check_isolated_component(G, deficit):
 def main():
     deficit = set()
     neighbors = get_neighbors(G)
-    check_isolated_paths(G, deficit) #casi 1,2,3
-    check_paths(G, deficit) #caso 4
-    check_isolated_component(G, deficit) #caso 5
-    check_square(G, deficit) #caso 6,7 e forse anche 8
-    check_component(G, deficit) #caso 9
+    check_isolated_paths(deficit) #cases 1,2 and 3
+    check_paths(deficit) #case 4
+    check_isolated_component(deficit) #case 5
+    check_square(deficit) #cases 6,7 and 8
+    check_component(deficit) #case 9
 
     print("deficit presenti nel grafo: " + str(deficit))
 
