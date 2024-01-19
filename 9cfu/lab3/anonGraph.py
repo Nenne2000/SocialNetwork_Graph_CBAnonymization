@@ -27,8 +27,8 @@ def check(G, k, l):
 
     return True
 
-
-V = [1,2,3,4,5,6,7,8,9,10,20,30,40,50,60,70]
+''',20,30,40,50,60,70'''
+V = [1,2,3,4,5,6,7,8,9,10]
 E = [ 
     (1,2),
     (1,3),
@@ -39,7 +39,9 @@ E = [
     (5,7),
     (9,7),
     (8,7),
-    (7,10),
+    (7,10) 
+]
+''',
     (60,20),
     (30,70),
     (20,30),
@@ -47,7 +49,9 @@ E = [
     (50,60),
     (40,50),
     (40,70)
-]
+    '''
+
+
 
 G = (V, E)
 
@@ -169,7 +173,8 @@ def main():
     m = len(deficit) // 2
     non_adjacent_vertices = []
     deficit = list(deficit)
-    for v in deficit:
+    for _ in range(m):
+        v = deficit[0]
         for u in deficit:
             if u == v:
                 continue
@@ -177,7 +182,8 @@ def main():
                 non_adjacent_vertices.append((v,u))
                 deficit.remove(v)
                 deficit.remove(u)
-            break
+                break
+                    
 
 
     if len(deficit) % 2 == 1:
